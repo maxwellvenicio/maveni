@@ -19280,7 +19280,6 @@ body.coming-soon {
   transform: translateX(12.5vw);
 }
 .service-area-one-main-wrapper .single-item-service-one:hover a .list-info {
-  opacity: 0;
   transform: translateX(15%);
 }
 @media only screen and (max-width: 767px) {
