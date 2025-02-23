@@ -14610,8 +14610,8 @@ xclip
   margin: 0 20px;
 }
 .header-area.header-one .header-wrapper .header-right .nav-area ul li.main-nav-on {
-  padding: 10px 0;
-}
+  padding: 10px 0px;
+} 
 .header-area.header-one .header-wrapper .header-right .nav-area ul li > a {
   text-transform: uppercase;
   font-weight: 500;
