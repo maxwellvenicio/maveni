@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt" data-theme="light">
+<html lang="pt-BR" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -362,39 +362,41 @@
                                 Entre em contato <br>
                             </h2>
                         </div>
-                        <form class="appoinment-h2 rts-slide-up-gsap" action="#">
+                        <form id="contact-form" class="appoinment-h2 rts-slide-up-gsap" action="http://localhost:3000/api/contact" method="POST">
                             <div class="input-line">
                                 <div class="input-half">
                                     <label for="name">Seu Nome*</label>
-                                    <input id="name" type="text" placeholder="Rafael Silva...." required>
+                                    <input id="name" type="text" name="name" placeholder="Rafael Silva" required>
                                 </div>
                                 <div class="input-half">
                                     <label for="email">Seu Email*</label>
-                                    <input id="email" type="text" placeholder="studio@codvision.com.br" required>
+                                    <input id="email" type="text" name="email" placeholder="studio@codvision.com.br" required>
                                 </div>
                             </div>
                             <div class="input-line mt--40">
                                 <div class="input-half">
                                     <label for="phone">Seu Telefone</label>
-                                    <input id="phone" type="text" placeholder="+55 85 99999-9999">
+                                    <input id="phone" type="text" name="phone" placeholder="85 99999-9999">
                                 </div>
                                 <div class="input-half">
-                                    <label for="email">Orçamento de Projeto*</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected disabled value="1">Selecione uma opçao</option>
+                                    <label for="budget">Orçamento de Projeto*</label>
+                                    <select id="budget" name="budget" class="form-select" aria-label="Default select example">
+                                        <option selected disabled value="1">Selecione uma opção</option>
                                         <option value="2">WebSites</option>
                                         <option value="3">Marketing Digital</option>
                                         <option value="4">Web Design</option>
                                         <option value="5">Outros</option>
-                                    </select>
+                                      </select>
                                 </div>
                             </div>
                             <div class="text-area mt--40">
                                 <label for="message">Mensagem*</label>
-                                <textarea id="message" cols="30" rows="10" placeholder="Quero fazer meu site..."></textarea>
+                                <textarea id="message" name="message" cols="30" rows="10" placeholder="Quero fazer meu site..." required></textarea>
                             </div>
-                            <button class="submit-pd">Enviar</button>
+                            <button type="submit" class="submit-pd">Enviar</button>
                         </form>
+                        <p id="response-message"></p> <!-- Para mostrar o status da requisição -->
+                        
                     </div>
                     <!-- appoinment area two end -->
                 </div>

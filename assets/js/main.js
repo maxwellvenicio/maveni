@@ -40,6 +40,7 @@
 
 ==================================================*/
 
+
 (function ($) {
   'use strict';
   let device_width = window.innerWidth;
