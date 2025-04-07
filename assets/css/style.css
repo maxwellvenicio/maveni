@@ -16015,7 +16015,7 @@ header.header-four .nav-area .navbar-nav-1 .menu-item .mega-menu-01.sub-menu .si
 
 .title-area-left-three-large .left-m-para {
   margin-left: 250px;
-  color: #90a1b9;
+  color: #314158;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -18775,7 +18775,7 @@ body.coming-soon {
   z-index: 5;
 }
 .single-service-area-start .discription-area .disc {
-  color: #90a1b9;
+  color:#314158;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -18792,7 +18792,7 @@ body.coming-soon {
 }
 .single-service-area-start .discription-area .sm-service-area-wrapper  p {
   margin-bottom: 0;
-  color: #45556C;
+  color: #62748E;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -18808,24 +18808,25 @@ body.coming-soon {
   width: 87px;
   height: 87px;
   border-radius: 50%;
-  border: 1px solid #2B2B2B;
+  border: 1px solid #10141E;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 0.3s;
 }
 .single-service-area-start .end-arrow a i {
-  color: #90a1b9;
+  color: #10141E;
   transition: 0.3s;
 }
 .single-service-area-start .end-arrow a:hover {
+  border-color:#7c86ff;
+  background:#7c86ff;
   border-color: #fff;
-  background: #fff;
-  border-color: #fff;
-  transform: scale(1.2);
+  transform: scale(1.1  );
 }
 .single-service-area-start .end-arrow a:hover i {
   color: #030712;
+  font-weight: bold;
 }
 
 
@@ -23127,7 +23128,7 @@ main {
   margin-bottom: 7px;
 }
 .footer-main-wrapper-one .footer-single-wized-start .mail-contact-area .single-con-info.mail a {
-  color: #030712;
+  color: #90a1b9;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
