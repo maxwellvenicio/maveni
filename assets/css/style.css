@@ -23089,7 +23089,7 @@ main {
     gap: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {s
   .footer-main-wrapper-one {
     flex-wrap: wrap;
   }
@@ -23105,7 +23105,7 @@ main {
   font-weight: 600;
   font-size: 22px;
   line-height: 29px;
-  color: #fff;
+  color: #45556C;
 }
 .footer-main-wrapper-one .footer-single-wized-start ul {
   padding: 0;
@@ -29120,8 +29120,8 @@ body.servi-ce-details .rts-footer-two-area {
   color: #030712;
 }
 .rts-light-mood .inner-page.contact-page .appoinment-h2 .submit-pd {
-  background: #7c86ff;
-  color: #030712;
+  background: #030712;
+  color: #fff;
 }
 .rts-light-mood .inner-page.blog-details .blog-details-main-wrapper.rts-section-gap {
   background: #fff;
@@ -29374,4 +29374,10 @@ body.servi-ce-details .rts-footer-two-area {
   display: none;
 }
 
+.titulo-video {
+  display: flex;
+  align-content: center; 
+  margin: 0 auto;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=../maps/style.css.map */
